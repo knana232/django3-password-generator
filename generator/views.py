@@ -10,6 +10,7 @@ def about(request):
     return render(request, 'generator/about.html')
 
 def password(request):
+    #This is comment test
 
     length = int(request.GET.get('length', 12))
     characters = list('abcdefghijklmnopqrstuvwxyz')
